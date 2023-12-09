@@ -1,0 +1,91 @@
+/* Container styling */
+body {
+    background-color: #10062760;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 80%;
+    text-align: center;
+}
+
+/* Header styling */
+h2 {
+    color: #4caf50;
+    font-weight: bold;
+}
+
+/* List styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* User item styling */
+li {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    background-color: #1e1e1e;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Input and select styling */
+input,
+select {
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Checkbox styling */
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Button styling */
+button {
+    margin-top: 15px;
+    padding: 12px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Hover effect on buttons */
+button:hover {
+    background-color: #45a049;
+}
+
+/* Cancel button styling */
+button+button {
+    margin-left: 10px;
+    background-color: #f44336;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Hover effect on cancel button */
+button+button:hover {
+    background-color: #d32f2f;
+}
+
+/* Styling for no user data message */
+p {
+    color: #888;
+    font-weight: bold;
+}
